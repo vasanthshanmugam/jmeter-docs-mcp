@@ -1,0 +1,20 @@
+{
+  "name": "jmeter-docs-local",
+  "interface": {
+    "displayName": "JMeter Docs Local Plugins Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "jmeter-docs",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

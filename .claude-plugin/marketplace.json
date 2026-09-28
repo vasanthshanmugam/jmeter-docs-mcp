@@ -1,0 +1,13 @@
+{
+  "name": "jmeter-docs-marketplace",
+  "owner": {
+    "name": "vasanthshanmugam"
+  },
+  "plugins": [
+    {
+      "name": "jmeter-docs",
+      "source": "./",
+      "description": "Access the official Apache JMeter user manual, component and function reference, and inspect .jmx test plans for best-practice issues."
+    }
+  ]
+}

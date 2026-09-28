@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "jmeter-docs": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "jmeter-docs-mcp@latest"]
+    }
+  }
+}

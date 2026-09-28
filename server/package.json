@@ -1,0 +1,57 @@
+{
+  "name": "jmeter-docs-mcp",
+  "version": "0.1.0",
+  "description": "MCP server and CLI that gives AI agents access to the official Apache JMeter user manual, component and function reference, and .jmx test plan inspection.",
+  "type": "module",
+  "bin": {
+    "jmeter-docs-mcp": "./dist/index.js",
+    "jmeter-docs": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\" && tsc -p tsconfig.json",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "jmeter",
+    "apache-jmeter",
+    "mcp",
+    "model-context-protocol",
+    "performance-testing",
+    "load-testing",
+    "docs",
+    "jmx"
+  ],
+  "author": "vasanthshanmugam",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasanthshanmugam/jmeter-docs-mcp.git",
+    "directory": "server"
+  },
+  "bugs": {
+    "url": "https://github.com/vasanthshanmugam/jmeter-docs-mcp/issues"
+  },
+  "homepage": "https://github.com/vasanthshanmugam/jmeter-docs-mcp#readme",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "cheerio": "^1.0.0",
+    "commander": "^14.0.3",
+    "fast-xml-parser": "^5.2.5",
+    "turndown": "^7.2.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "@types/turndown": "^5.0.5",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}

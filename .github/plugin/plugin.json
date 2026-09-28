@@ -1,0 +1,11 @@
+{
+  "name": "jmeter-docs",
+  "description": "Access the official Apache JMeter user manual, component and function reference, and inspect .jmx test plans for best-practice issues.",
+  "version": "0.1.0",
+  "author": {
+    "name": "vasanthshanmugam"
+  },
+  "homepage": "https://github.com/vasanthshanmugam/jmeter-docs-mcp",
+  "repository": "https://github.com/vasanthshanmugam/jmeter-docs-mcp",
+  "keywords": ["jmeter", "apache-jmeter", "docs", "performance-testing", "load-testing", "jmx", "mcp"]
+}

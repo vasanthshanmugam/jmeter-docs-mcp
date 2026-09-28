@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Apache JMeter - User's Manual: Component Reference</title></head>
+<body>
+<div class="header"><a href="../index.html">JMeter</a></div>
+<div class="nav"><ul><li><a href="#HTTP_Request">HTTP Request</a></li></ul></div>
+<div class="main" id="content">
+  <div class="section">
+    <h1 id="introduction">18.0 Introduction<a class="sectionlink" href="#introduction" title="Link to here">&para;</a></h1>
+    <p>Components are grouped by type.</p>
+  </div>
+  <div class="section">
+    <h1 id="samplers">18.1 Samplers<a class="sectionlink" href="#samplers" title="Link to here">&para;</a></h1>
+    <div class="component">
+      <h2 id="HTTP_Request">
+        HTTP Request<a class="sectionlink" href="#HTTP_Request" title="Link to here">&para;</a>
+      </h2>
+      <div class="description">
+        <p>This sampler lets you send an HTTP/HTTPS request to a web server. See <a href="../usermanual/component_reference.html#HTTP_Request_Defaults">HTTP Request Defaults</a>.</p>
+        <div class="note">The default parser is <span class="code">LagartoBasedHtmlParser</span>.</div>
+      </div>
+      <div class="screenshot"><figure><img src="../images/http.png" alt="shot"></figure></div>
+      <div class="properties">
+        <h3 id="HTTP_Request_parms1">Parameters<a class="sectionlink" href="#HTTP_Request_parms1">&para;</a></h3>
+        <div class="property title">
+          <div class="name title">Attribute</div><div class="description title">Description</div><div class="required title">Required</div>
+        </div>
+        <div class="property">
+          <div class="name req-true">Server Name or IP</div>
+          <div class="description req-true">Domain name or IP address of the web server.</div>
+          <div class="required req-true">Yes</div>
+        </div>
+      </div>
+      <div class="go-top"><a href="#">^</a></div>
+    </div>
+    <div class="component">
+      <h2 id="JSON_Extractor">JSON Extractor<a class="sectionlink" href="#JSON_Extractor">&para;</a></h2>
+      <div class="description">
+        <p>The JSON PostProcessor enables you extract data from JSON responses using JSON-PATH syntax.
+          It is easier than <span class="code"><a href="../usermanual/functions.html#__jexl3">__jexl3()</a></span>.</p>
+        <pre>$.store.book[*].author</pre>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">Copyright</div>
+</body>
+</html>

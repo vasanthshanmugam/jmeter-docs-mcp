@@ -1,0 +1,29 @@
+{
+  "name": "jmeter-docs",
+  "description": "Access the official Apache JMeter user manual, component and function reference, and inspect .jmx test plans for best-practice issues.",
+  "version": "0.1.0",
+  "author": {
+    "name": "vasanthshanmugam"
+  },
+  "homepage": "https://github.com/vasanthshanmugam/jmeter-docs-mcp",
+  "repository": "https://github.com/vasanthshanmugam/jmeter-docs-mcp",
+  "license": "MIT",
+  "keywords": ["jmeter", "apache-jmeter", "docs", "performance-testing", "load-testing", "jmx", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "JMeter Docs",
+    "shortDescription": "Search the Apache JMeter manual and review .jmx test plans.",
+    "longDescription": "Search the official Apache JMeter user manual, look up any component, function, or property with all of its parameters, and inspect local .jmx test plans for issues that distort load-test results.",
+    "developerName": "vasanthshanmugam",
+    "category": "Productivity",
+    "capabilities": ["Research", "Reference"],
+    "websiteURL": "https://github.com/vasanthshanmugam/jmeter-docs-mcp",
+    "defaultPrompt": [
+      "How do I extract a token from a JSON response in JMeter?",
+      "What parameters does the Constant Throughput Timer take?",
+      "Review my test plan load-test.jmx for problems."
+    ],
+    "brandColor": "#D22128"
+  }
+}
